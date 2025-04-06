@@ -1,5 +1,7 @@
 # Thomson Reuters Test
 
+> **Note:** The applications were developed on node 20.15.1
+
 This repository contains two projects:
 
 - **Node**: The backend project that connects to an exposed AWS database.
@@ -31,8 +33,6 @@ This repository includes the backend project that connects to an exposed AWS dat
    node index.js
    ```
 
-> **Note:** Make sure the AWS database is configured properly to avoid connection issues.
-
 ---
 
 ## Project 2: example-tr (Frontend)
@@ -61,8 +61,6 @@ This repository contains the frontend project built with React.
    npm start
    ```
 
-> **Note:** If you encounter any issues on the frontend, it may be due to database connectivity problems. A restart of the backend should resolve these issues. Since this is a free public AWS instance, data iteration is not always optimal.
-
 ---
 
 ## User Login Details
@@ -77,6 +75,11 @@ The following users can log in:
 | 4          | 8765 | 4    | Mark Ruffalo           |
 | 5          | 5555 | 5    | Scarlett Johansson     |
 | 6          | 2222 | 6    | Samuel L. Jackson      |
+
+---
+## Recommendations For Use
+
+In case the images are displayed on the ATM screen, it is recommended to reduce the zoom to 80 or 75%.
 
 ---
 
