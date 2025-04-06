@@ -1,0 +1,177 @@
+.atm {
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.topImage{
+  
+  width: 80%;
+  object-fit: cover; 
+  clip-path: inset(50% 0 0 0);
+}
+
+
+.screen {
+    width: 100%;
+    height: 450px;
+    background-color: #80b4db;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+}
+.top-image {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;
+}
+.buttons-container {
+    position: absolute;
+    top: calc(50% - 90px);
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.buttons-left, .buttons-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button {
+  width: 70px;
+  height: 40px;
+  background-color: #aaa;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttons-left {
+  position: absolute;
+  left: -80px;
+}
+.buttons-right {
+  position: absolute;
+  right: -80px;
+}
+
+.pin-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pin-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pin-inputs input {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.pin-inputs input:focus {
+  border-color: #007bff;
+}
+
+.pin-inputs2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pin-inputs2 input {
+  width: 40px;
+  height: 40px;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.pin-inputs2 input:focus {
+  border-color: #007bff;
+}
+
+.overlay-image-sticker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-155%, 200%);
+  width: 250px;
+  height: auto;
+}
+
+.overlay-image-mark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(145%, 3200%);
+  width: 120px;
+  height: auto;
+}
+
+/* tabls styles */
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin: 20px 0; 
+  font-family: 'Arial', sans-serif; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+th, td {
+  padding: 12px 15px; 
+  text-align: left; 
+  border: 1px solid #ddd; 
+}
+
+
+th {
+  background-color: #007bff;
+  color: white; 
+  font-size: 16px; 
+  text-transform: uppercase; 
+}
+
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2; 
+}
+
+
+tr:hover {
+  background-color: #ddd; 
+  cursor: pointer; 
+}
+
+
+td {
+  font-size: 14px; 
+  color: #333; 
+}
