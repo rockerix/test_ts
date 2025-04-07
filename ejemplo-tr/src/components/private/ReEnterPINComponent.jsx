@@ -83,7 +83,7 @@ const ReEnterPINComponent = () => {
               {pin.map((digit, index) => (
                 <input
                   key={index}
-                  type="text"
+                  type="password"
                   id={`pin-${index}`}
                   value={digit}
                   onChange={(e) => handleChange(e, index)}

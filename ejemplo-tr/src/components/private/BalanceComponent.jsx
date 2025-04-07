@@ -69,10 +69,9 @@ const BalanceComponent = () => {
     {activeImage === 6 && <img id="6" src={sprite6} className="topImage" alt="" />}
   </div>
       <div className="screen">
-          <p>Your Balance</p>
-          <p>Actual Account: ${balance}</p>
+          <p>Actual Balance: ${balance}</p>
           <div>
-          <h1>Detalle del balance</h1>
+          <h3>Here shows your last 5 movements, you can print more detail</h3>
           <table>
             <thead>
               <tr>
